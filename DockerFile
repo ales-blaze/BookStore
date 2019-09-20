@@ -1,0 +1,8 @@
+FROM tomcat:8.5-alpine
+ENV DOCKER_HOST=tcp://localhost:3000
+EXPOSE 3000
+VOLUEME /volume/mysql/
+COPY /target/BookStore.war /usr/local/tomcat/webapps/app.war
+RUN sh -c 'touch /usr/local/tomcat/webapps/app.war'
+d
+ENTRYPOINT ["sh", "-c" , "java -Djava.security.edg=file:/dev/./urandom -jar /usr/local/tomcat/webapps/app.war]
