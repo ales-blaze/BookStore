@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.codejava.javaee.bookstore</groupId>
   <artifactId>Bookstore</artifactId>
-  <version>1.2.1</version>
+  <version>1</version>
   <packaging>war</packaging>
   
   	<properties>
@@ -62,7 +62,7 @@
 	<configuration>
 	<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 	<dockerDirectory>Docker</dockerDirectory>
-	<dockerHost>https://localhost:3000</dockerHost>
+	<dockerHost>http://localhost:2375</dockerHost>
 	<forceTags>true</forceTags>
 	<imageTags>
 	<imageTag>${project.version}</imageTag>
