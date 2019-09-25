@@ -68,8 +68,8 @@
 	<imageTag>${project.version}</imageTag>
 	<imageTag>latest</imageTag>
 	</imageTags>
-	<serverId>docker-hub</serverId>
-	<registryUrl>https://hub.docker.com/</registryUrl>
+<!--	<serverId>docker-hub</serverId>
+	<registryUrl>https://hub.docker.com/</registryUrl> -->
 	<resources>
 	<resource>
 	<targetPath>/</targetPath>
