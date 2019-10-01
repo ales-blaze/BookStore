@@ -11,3 +11,5 @@ CREATE TABLE `book` (
   UNIQUE KEY `title_UNIQUE` (`title`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1
 
+insert into book values (1234 , 'effective java' , 'john' , 100);
+insert into book values (14 , 'effective ' , 'jon' , 10);
