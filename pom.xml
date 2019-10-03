@@ -64,7 +64,7 @@
 	<configuration>
 	<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 	<dockerDirectory>.</dockerDirectory>
-	<dockerHost>http://localhost:2375</dockerHost>
+	<dockerHost>http://18.223.161.83:2375</dockerHost>
 	<forceTags>true</forceTags>
 	<imageTags>	
 	<imageTag>${project.version}</imageTag>

@@ -1,5 +1,5 @@
 #surefire
-#Tue Oct 01 13:33:03 IST 2019
+#Thu Oct 03 17:15:40 IST 2019
 testClassesDirectory=/home/ales/Git/InfraProject/BookStore/target/test-classes
 classPathUrl.4=/root/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar
 forkMode=once
