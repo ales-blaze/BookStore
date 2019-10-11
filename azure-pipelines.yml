@@ -12,8 +12,8 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'ea5b3bd9-962b-4524-82de-81ac4a952407'
-  imageRepository: 'alesblazebookstore'
-  containerRegistry: 'bookstoreappacr.azurecr.io'
+  imageRepository: 'alesblaze/bookstore'
+  containerRegistry: 'hub.docker.com'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'bookstoreappacr10a8-auth'
