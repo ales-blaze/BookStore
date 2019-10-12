@@ -51,7 +51,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'alesblazeBookStore.deployjavaweb'
+    environment: 'alesblaze/BookStore.deployjavaweb'
     strategy:
       runOnce:
         deploy:
