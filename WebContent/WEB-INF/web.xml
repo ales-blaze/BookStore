@@ -8,7 +8,7 @@
 
 	<context-param>
 		<param-name>jdbcURL</param-name>
-		<param-value>jdbc:mysql://100.67.164.249:3306/Bookstore</param-value>
+		<param-value>jdbc:mysql://100.67.164.249/Bookstore</param-value>
 	</context-param>
 
 	<context-param>
