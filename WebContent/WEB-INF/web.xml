@@ -8,17 +8,17 @@
 
 	<context-param>
 		<param-name>jdbcURL</param-name>
-		<param-value>jdbc:mysql://100.67.164.249/Bookstore</param-value>
+		<param-value>jdbc:mysql://100.67.164.249:3306/Bookstore</param-value>
 	</context-param>
 
 	<context-param>
 		<param-name>jdbcUsername</param-name>
-		<param-value>root</param-value>
+		<param-value>ales</param-value>
 	</context-param>
 
 	<context-param>
 		<param-name>jdbcPassword</param-name>
-		<param-value>root</param-value>
+		<param-value>ales.</param-value>
 	</context-param>
 
 	<servlet>
