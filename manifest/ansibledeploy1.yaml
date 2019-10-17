@@ -1,0 +1,12 @@
+---
+name: Create pods using deployment
+hosts: kubernetes-server
+become: true
+user: admin
+
+tasks:
+  - name: create front end deployment
+    command: kubectl apply -f ~/files/deployjava.yaml
+
+  - name: update deployment with new pods if image updated in docker hub
+    command: kubectl rollout restart deployment.apps/java-deployment

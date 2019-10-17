@@ -1,0 +1,13 @@
+---
+name: Create pods using deployment
+hosts: kubernetes-server
+become: true
+user: admin
+
+
+tasks:
+  - name: create back end deploymentapiVersion: apps/v1
+    command: kubectl apply -f ~/files/deploydb.yaml
+
+  - name: update deployment with new pods if image updated in docker hub
+    comamnd: kubectl rollout restart deployment.apps/db-deployment
